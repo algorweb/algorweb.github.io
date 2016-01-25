@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'ProximanovaLight';
+    src: url('fonts/ProximanovaLight.eot');
+    src: url('fonts/ProximanovaLight.eot') format('embedded-opentype'),
+         url('fonts/ProximanovaLight.woff2') format('woff2'),
+         url('fonts/ProximanovaLight.woff') format('woff'),
+         url('fonts/ProximanovaLight.ttf') format('truetype'),
+         url('fonts/ProximanovaLight.svg#ProximanovaLight') format('svg');
+}

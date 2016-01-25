@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'KelsonSansRegularRU';
+    src: url('fonts/KelsonSansRegularRU.eot');
+    src: url('fonts/KelsonSansRegularRU.eot') format('embedded-opentype'),
+         url('fonts/KelsonSansRegularRU.woff2') format('woff2'),
+         url('fonts/KelsonSansRegularRU.woff') format('woff'),
+         url('fonts/KelsonSansRegularRU.ttf') format('truetype'),
+         url('fonts/KelsonSansRegularRU.svg#KelsonSansRegularRU') format('svg');
+}

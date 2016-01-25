@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="ru"> <!--<![endif]-->
+
+<head>
+
+	<meta charset="utf-8">
+
+	<title>LaModa - интернет магазин сумок.</title>
+	<meta name="description" content=""> 
+
+	<!-- Bootstrap v3.3.5 Grid Styles === modified to 960px grid ===-->
+	<style>html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block;vertical-align:baseline}audio:not([controls]){display:none;height:0}[hidden],template{display:none}a{background-color:transparent}a:active,a:hover{outline:0}abbr[title]{border-bottom:1px dotted}b,strong{font-weight:bold}dfn{font-style:italic}h1{font-size:2em;margin:0.67em 0}mark{background:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-0.5em}sub{bottom:-0.25em}img{border:0}svg:not(:root){overflow:hidden}figure{margin:1em 40px}hr{-webkit-box-sizing:content-box;-moz-box-sizing:content-box;box-sizing:content-box;height:0}pre{overflow:auto}code,kbd,pre,samp{font-family:monospace, monospace;font-size:1em}button,input,optgroup,select,textarea{color:inherit;font:inherit;margin:0}button{overflow:visible}button,select{text-transform:none}button,html input[type="button"],input[type="reset"],input[type="submit"]{-webkit-appearance:button;cursor:pointer}button[disabled],html input[disabled]{cursor:default}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}input{line-height:normal}input[type="checkbox"],input[type="radio"]{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;padding:0}input[type="number"]::-webkit-inner-spin-button,input[type="number"]::-webkit-outer-spin-button{height:auto}input[type="search"]{-webkit-appearance:textfield;-webkit-box-sizing:content-box;-moz-box-sizing:content-box;box-sizing:content-box}input[type="search"]::-webkit-search-cancel-button,input[type="search"]::-webkit-search-decoration{-webkit-appearance:none}fieldset{border:1px solid #c0c0c0;margin:0 2px;padding:0.35em 0.625em 0.75em}legend{border:0;padding:0}textarea{overflow:auto}optgroup{font-weight:bold}table{border-collapse:collapse;border-spacing:0}td,th{padding:0}*{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}*:before,*:after{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}html{font-size:10px;-webkit-tap-highlight-color:rgba(0,0,0,0)}body{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:14px;line-height:1.42857143;color:#333;background-color:#fff}input,button,select,textarea{font-family:inherit;font-size:inherit;line-height:inherit}a{color:#337ab7;text-decoration:none}a:hover,a:focus{color:#23527c;text-decoration:underline}a:focus{outline:thin dotted;outline:5px auto -webkit-focus-ring-color;outline-offset:-2px}figure{margin:0}img{vertical-align:middle}.img-responsive{display:block;max-width:100%;height:auto}.img-rounded{border-radius:6px}.img-thumbnail{padding:4px;line-height:1.42857143;background-color:#fff;border:1px solid #ddd;border-radius:4px;-webkit-transition:all .2s ease-in-out;-o-transition:all .2s ease-in-out;transition:all .2s ease-in-out;display:inline-block;max-width:100%;height:auto}.img-circle{border-radius:50%}hr{margin-top:20px;margin-bottom:20px;border:0;border-top:1px solid #eee}.sr-only{position:absolute;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);border:0}.sr-only-focusable:active,.sr-only-focusable:focus{position:static;width:auto;height:auto;margin:0;overflow:visible;clip:auto}[role="button"]{cursor:pointer}.container{margin-right:auto;margin-left:auto;padding-left:10px;padding-right:10px}@media (min-width:768px){.container{width:740px}}@media (min-width:992px){.container{width:960px}}@media (min-width:1200px){.container{width:960px}}.container-fluid{margin-right:auto;margin-left:auto;padding-left:10px;padding-right:10px}.row{margin-left:-10px;margin-right:-10px}.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12{position:relative;min-height:1px;padding-left:10px;padding-right:10px}.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12{float:left}.col-xs-12{width:100%}.col-xs-11{width:91.66666667%}.col-xs-10{width:83.33333333%}.col-xs-9{width:75%}.col-xs-8{width:66.66666667%}.col-xs-7{width:58.33333333%}.col-xs-6{width:50%}.col-xs-5{width:41.66666667%}.col-xs-4{width:33.33333333%}.col-xs-3{width:25%}.col-xs-2{width:16.66666667%}.col-xs-1{width:8.33333333%}.col-xs-pull-12{right:100%}.col-xs-pull-11{right:91.66666667%}.col-xs-pull-10{right:83.33333333%}.col-xs-pull-9{right:75%}.col-xs-pull-8{right:66.66666667%}.col-xs-pull-7{right:58.33333333%}.col-xs-pull-6{right:50%}.col-xs-pull-5{right:41.66666667%}.col-xs-pull-4{right:33.33333333%}.col-xs-pull-3{right:25%}.col-xs-pull-2{right:16.66666667%}.col-xs-pull-1{right:8.33333333%}.col-xs-pull-0{right:auto}.col-xs-push-12{left:100%}.col-xs-push-11{left:91.66666667%}.col-xs-push-10{left:83.33333333%}.col-xs-push-9{left:75%}.col-xs-push-8{left:66.66666667%}.col-xs-push-7{left:58.33333333%}.col-xs-push-6{left:50%}.col-xs-push-5{left:41.66666667%}.col-xs-push-4{left:33.33333333%}.col-xs-push-3{left:25%}.col-xs-push-2{left:16.66666667%}.col-xs-push-1{left:8.33333333%}.col-xs-push-0{left:auto}.col-xs-offset-12{margin-left:100%}.col-xs-offset-11{margin-left:91.66666667%}.col-xs-offset-10{margin-left:83.33333333%}.col-xs-offset-9{margin-left:75%}.col-xs-offset-8{margin-left:66.66666667%}.col-xs-offset-7{margin-left:58.33333333%}.col-xs-offset-6{margin-left:50%}.col-xs-offset-5{margin-left:41.66666667%}.col-xs-offset-4{margin-left:33.33333333%}.col-xs-offset-3{margin-left:25%}.col-xs-offset-2{margin-left:16.66666667%}.col-xs-offset-1{margin-left:8.33333333%}.col-xs-offset-0{margin-left:0}@media (min-width:768px){.col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12{float:left}.col-sm-12{width:100%}.col-sm-11{width:91.66666667%}.col-sm-10{width:83.33333333%}.col-sm-9{width:75%}.col-sm-8{width:66.66666667%}.col-sm-7{width:58.33333333%}.col-sm-6{width:50%}.col-sm-5{width:41.66666667%}.col-sm-4{width:33.33333333%}.col-sm-3{width:25%}.col-sm-2{width:16.66666667%}.col-sm-1{width:8.33333333%}.col-sm-pull-12{right:100%}.col-sm-pull-11{right:91.66666667%}.col-sm-pull-10{right:83.33333333%}.col-sm-pull-9{right:75%}.col-sm-pull-8{right:66.66666667%}.col-sm-pull-7{right:58.33333333%}.col-sm-pull-6{right:50%}.col-sm-pull-5{right:41.66666667%}.col-sm-pull-4{right:33.33333333%}.col-sm-pull-3{right:25%}.col-sm-pull-2{right:16.66666667%}.col-sm-pull-1{right:8.33333333%}.col-sm-pull-0{right:auto}.col-sm-push-12{left:100%}.col-sm-push-11{left:91.66666667%}.col-sm-push-10{left:83.33333333%}.col-sm-push-9{left:75%}.col-sm-push-8{left:66.66666667%}.col-sm-push-7{left:58.33333333%}.col-sm-push-6{left:50%}.col-sm-push-5{left:41.66666667%}.col-sm-push-4{left:33.33333333%}.col-sm-push-3{left:25%}.col-sm-push-2{left:16.66666667%}.col-sm-push-1{left:8.33333333%}.col-sm-push-0{left:auto}.col-sm-offset-12{margin-left:100%}.col-sm-offset-11{margin-left:91.66666667%}.col-sm-offset-10{margin-left:83.33333333%}.col-sm-offset-9{margin-left:75%}.col-sm-offset-8{margin-left:66.66666667%}.col-sm-offset-7{margin-left:58.33333333%}.col-sm-offset-6{margin-left:50%}.col-sm-offset-5{margin-left:41.66666667%}.col-sm-offset-4{margin-left:33.33333333%}.col-sm-offset-3{margin-left:25%}.col-sm-offset-2{margin-left:16.66666667%}.col-sm-offset-1{margin-left:8.33333333%}.col-sm-offset-0{margin-left:0}}@media (min-width:992px){.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12{float:left}.col-md-12{width:100%}.col-md-11{width:91.66666667%}.col-md-10{width:83.33333333%}.col-md-9{width:75%}.col-md-8{width:66.66666667%}.col-md-7{width:58.33333333%}.col-md-6{width:50%}.col-md-5{width:41.66666667%}.col-md-4{width:33.33333333%}.col-md-3{width:25%}.col-md-2{width:16.66666667%}.col-md-1{width:8.33333333%}.col-md-pull-12{right:100%}.col-md-pull-11{right:91.66666667%}.col-md-pull-10{right:83.33333333%}.col-md-pull-9{right:75%}.col-md-pull-8{right:66.66666667%}.col-md-pull-7{right:58.33333333%}.col-md-pull-6{right:50%}.col-md-pull-5{right:41.66666667%}.col-md-pull-4{right:33.33333333%}.col-md-pull-3{right:25%}.col-md-pull-2{right:16.66666667%}.col-md-pull-1{right:8.33333333%}.col-md-pull-0{right:auto}.col-md-push-12{left:100%}.col-md-push-11{left:91.66666667%}.col-md-push-10{left:83.33333333%}.col-md-push-9{left:75%}.col-md-push-8{left:66.66666667%}.col-md-push-7{left:58.33333333%}.col-md-push-6{left:50%}.col-md-push-5{left:41.66666667%}.col-md-push-4{left:33.33333333%}.col-md-push-3{left:25%}.col-md-push-2{left:16.66666667%}.col-md-push-1{left:8.33333333%}.col-md-push-0{left:auto}.col-md-offset-12{margin-left:100%}.col-md-offset-11{margin-left:91.66666667%}.col-md-offset-10{margin-left:83.33333333%}.col-md-offset-9{margin-left:75%}.col-md-offset-8{margin-left:66.66666667%}.col-md-offset-7{margin-left:58.33333333%}.col-md-offset-6{margin-left:50%}.col-md-offset-5{margin-left:41.66666667%}.col-md-offset-4{margin-left:33.33333333%}.col-md-offset-3{margin-left:25%}.col-md-offset-2{margin-left:16.66666667%}.col-md-offset-1{margin-left:8.33333333%}.col-md-offset-0{margin-left:0}}@media (min-width:1200px){.col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12{float:left}.col-lg-12{width:100%}.col-lg-11{width:91.66666667%}.col-lg-10{width:83.33333333%}.col-lg-9{width:75%}.col-lg-8{width:66.66666667%}.col-lg-7{width:58.33333333%}.col-lg-6{width:50%}.col-lg-5{width:41.66666667%}.col-lg-4{width:33.33333333%}.col-lg-3{width:25%}.col-lg-2{width:16.66666667%}.col-lg-1{width:8.33333333%}.col-lg-pull-12{right:100%}.col-lg-pull-11{right:91.66666667%}.col-lg-pull-10{right:83.33333333%}.col-lg-pull-9{right:75%}.col-lg-pull-8{right:66.66666667%}.col-lg-pull-7{right:58.33333333%}.col-lg-pull-6{right:50%}.col-lg-pull-5{right:41.66666667%}.col-lg-pull-4{right:33.33333333%}.col-lg-pull-3{right:25%}.col-lg-pull-2{right:16.66666667%}.col-lg-pull-1{right:8.33333333%}.col-lg-pull-0{right:auto}.col-lg-push-12{left:100%}.col-lg-push-11{left:91.66666667%}.col-lg-push-10{left:83.33333333%}.col-lg-push-9{left:75%}.col-lg-push-8{left:66.66666667%}.col-lg-push-7{left:58.33333333%}.col-lg-push-6{left:50%}.col-lg-push-5{left:41.66666667%}.col-lg-push-4{left:33.33333333%}.col-lg-push-3{left:25%}.col-lg-push-2{left:16.66666667%}.col-lg-push-1{left:8.33333333%}.col-lg-push-0{left:auto}.col-lg-offset-12{margin-left:100%}.col-lg-offset-11{margin-left:91.66666667%}.col-lg-offset-10{margin-left:83.33333333%}.col-lg-offset-9{margin-left:75%}.col-lg-offset-8{margin-left:66.66666667%}.col-lg-offset-7{margin-left:58.33333333%}.col-lg-offset-6{margin-left:50%}.col-lg-offset-5{margin-left:41.66666667%}.col-lg-offset-4{margin-left:33.33333333%}.col-lg-offset-3{margin-left:25%}.col-lg-offset-2{margin-left:16.66666667%}.col-lg-offset-1{margin-left:8.33333333%}.col-lg-offset-0{margin-left:0}}.clearfix:before,.clearfix:after,.container:before,.container:after,.container-fluid:before,.container-fluid:after,.row:before,.row:after{content:" ";display:table}.clearfix:after,.container:after,.container-fluid:after,.row:after{clear:both}.center-block{display:block;margin-left:auto;margin-right:auto}.pull-right{float:right !important}.pull-left{float:left !important}.hide{display:none !important}.show{display:block !important}.invisible{visibility:hidden}.text-hide{font:0/0 a;color:transparent;text-shadow:none;background-color:transparent;border:0}.hidden{display:none !important}.affix{position:fixed}@-ms-viewport{width:device-width}.visible-xs,.visible-sm,.visible-md,.visible-lg{display:none !important}.visible-xs-block,.visible-xs-inline,.visible-xs-inline-block,.visible-sm-block,.visible-sm-inline,.visible-sm-inline-block,.visible-md-block,.visible-md-inline,.visible-md-inline-block,.visible-lg-block,.visible-lg-inline,.visible-lg-inline-block{display:none !important}@media (max-width:767px){.visible-xs{display:block !important}table.visible-xs{display:table !important}tr.visible-xs{display:table-row !important}th.visible-xs,td.visible-xs{display:table-cell !important}}@media (max-width:767px){.visible-xs-block{display:block !important}}@media (max-width:767px){.visible-xs-inline{display:inline !important}}@media (max-width:767px){.visible-xs-inline-block{display:inline-block !important}}@media (min-width:768px) and (max-width:991px){.visible-sm{display:block !important}table.visible-sm{display:table !important}tr.visible-sm{display:table-row !important}th.visible-sm,td.visible-sm{display:table-cell !important}}@media (min-width:768px) and (max-width:991px){.visible-sm-block{display:block !important}}@media (min-width:768px) and (max-width:991px){.visible-sm-inline{display:inline !important}}@media (min-width:768px) and (max-width:991px){.visible-sm-inline-block{display:inline-block !important}}@media (min-width:992px) and (max-width:1199px){.visible-md{display:block !important}table.visible-md{display:table !important}tr.visible-md{display:table-row !important}th.visible-md,td.visible-md{display:table-cell !important}}@media (min-width:992px) and (max-width:1199px){.visible-md-block{display:block !important}}@media (min-width:992px) and (max-width:1199px){.visible-md-inline{display:inline !important}}@media (min-width:992px) and (max-width:1199px){.visible-md-inline-block{display:inline-block !important}}@media (min-width:1200px){.visible-lg{display:block !important}table.visible-lg{display:table !important}tr.visible-lg{display:table-row !important}th.visible-lg,td.visible-lg{display:table-cell !important}}@media (min-width:1200px){.visible-lg-block{display:block !important}}@media (min-width:1200px){.visible-lg-inline{display:inline !important}}@media (min-width:1200px){.visible-lg-inline-block{display:inline-block !important}}@media (max-width:767px){.hidden-xs{display:none !important}}@media (min-width:768px) and (max-width:991px){.hidden-sm{display:none !important}}@media (min-width:992px) and (max-width:1199px){.hidden-md{display:none !important}}@media (min-width:1200px){.hidden-lg{display:none !important}}.visible-print{display:none !important}@media print{.visible-print{display:block !important}table.visible-print{display:table !important}tr.visible-print{display:table-row !important}th.visible-print,td.visible-print{display:table-cell !important}}.visible-print-block{display:none !important}@media print{.visible-print-block{display:block !important}}.visible-print-inline{display:none !important}@media print{.visible-print-inline{display:inline !important}}.visible-print-inline-block{display:none !important}@media print{.visible-print-inline-block{display:inline-block !important}}@media print{.hidden-print{display:none !important}}</style>
+	<!-- Header CSS -->
+	<style>body{font-size:16px;min-width:320px;position:relative;line-height:1.6;overflow-x:hidden}.hidden{display:none}p{padding:0;margin:0}.header-wrapper{width:100%;color:#fff}.section-logo-nav-basket{background-color:#4F4C52}.section-logo{margin-top:30px;margin-bottom:38px}.nav-menu__list{list-style-type:none;padding-left:0;text-align:right}.nav-menu__item{display:inline-block;padding-top:15px;padding-left:11px}.nav-menu__item a{font-family:"RalewayRegular",verdana,sans-serif;color:#fff;font-size:16px;text-decoration:none;text-transform:uppercase}.font_icon{font-family:"svgfont_1regular";display:inline-block;font-style:normal;text-rendering:auto;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.font_icon.basket__bag::before{content:'c';font-size:20px}.basket{padding-top:26px}.basket__my-order{display:inline-block;text-transform:uppercase;position:absolute;top:31px;left:38px}.basket__order{display:inline-block;background-color:#fff;width:25px;height:25px;position:absolute;top:31px;left:155px;border-radius:50%}.basket__order-count{color:#4f4d53;font-family:'KelsonSansRegularRU';font-size:18px;display:inline-block;position:absolute;top:-2px;left:8px}.slider-sale-work{background-color:#403e44;padding-top:65px;-webkit-box-shadow:2px 2px 9px 0 rgba(0,0,0,0.32);box-shadow:2px 2px 9px 0 rgba(0,0,0,0.32);z-index:1000}.slider{background-color:#fff;min-height:327px;text-transform:uppercase;font-size:52px;color:#555;line-height:65px;border-radius:2px;-webkit-box-shadow:0 0 26px 8px rgba(0,0,0,0.1);-moz-box-shadow:0 0 26px 8px rgba(0,0,0,0.1);box-shadow:0 0 26px 8px rgba(0,0,0,0.1)}.slider__strings{position:absolute;margin-top:31px;margin-left:35px;letter-spacing:.2px;word-spacing:5.2px}.slider__fisr-string,.slider__second-string{font-family:'KelsonSansLightRU'}.slider__second-string_bold{font-family:'KelsonSansRegularRU'}.slider__btn{border-radius:2px;-webkit-box-shadow:0 0 26px 8px rgba(0,0,0,0.1);-moz-box-shadow:0 0 26px 8px rgba(0,0,0,0.1);box-shadow:0 0 26px 8px rgba(0,0,0,0.1);font-family:"RalewayRegular";font-size:16px;left:22px;letter-spacing:.3px;position:absolute;top:215px}.slider__btn a{display:block;padding:12px 10px;line-height:17px;color:#4b4b4b;text-decoration:none}.slider__discount{background-color:#ff4f37;bottom:57px;color:#fff;font-family:"KelsonSansLightRU";left:214px;padding:11px 50px 11px 16px;position:absolute}.slider__bag-img{bottom:2px;position:absolute;right:-9px;width:261px!important}.carousel{-webkit-box-shadow:0 0 26px 8px rgba(0,0,0,0.1);-moz-box-shadow:0 0 26px 8px rgba(0,0,0,0.1);box-shadow:0 0 26px 8px rgba(0,0,0,0.1)}.slider__dot-wrap{display:block;position:absolute;bottom:24px;left:23px}.slider__dot{height:10px;width:10px;border-radius:50%;background-color:#515151;padding-left:0;margin:0}.owl-dots{position:absolute}.owl-dot{display:inline-block;left:20px;position:absolute;top:-37px}.owl-theme .owl-dots .owl-dot{display:block;width:10px;height:10px;border-radius:50%;background-color:#ededed;margin:2px}.owl-theme .owl-dots .owl-dot.active{background-color:#515151;width:14px;height:14px;margin:0;border-radius:50%}.owl-dot:nth-child(2){left:36px}.owl-dot:nth-child(3){left:52px}.owl-dot:nth-child(4){left:68px}.owl-dot:nth-child(5){left:84px}.owl-dot:nth-child(6){left:100px}.owl-dot:nth-child(7){left:100px}.owl-dot:nth-child(8){left:100px}.owl-dot:nth-child(9){left:100px}.owl-dot:nth-child(10){left:100px}.owl-dot:nth-child(11){left:100px}.owl-dot:nth-child(12){left:100px}.sale__fist-string,.sale__second-string{font-family:"KelsonSansLightRU";text-transform:uppercase;font-size:42px;text-align:center}.sale__fist-string{line-height:48px}.sale__second-string{line-height:52px}.sale__discount{background-color:#ff4f37;-webkit-box-shadow:0 0 9px 3px rgba(0,0,0,0.32);-moz-box-shadow:0 0 9px 3px rgba(0,0,0,0.32);box-shadow:0 0 9px 3px rgba(0,0,0,0.32);font-family:"RalewayRegular";font-size:31px;margin-top:8px;padding:12px 0;text-align:center;text-transform:uppercase;border-radius:2px}.sale__discount span{font-family:"KelsonSansLightRU"}.sale__propos{text-align:center;font-family:"RalewayMedium";font-size:20px;margin:23px}.sale-do__day,.sale-do__hour,.sale-do__minut{display:inline-block;border:#747277 solid 2px;border-radius:10px;text-align:center;margin-left:7px;margin-right:7px;width:87px}.sale-do_ff-ProximanovaLight{font-family:"ProximanovaLight";font-size:46px;line-height:33px;margin-top:7px}.sale-do_ff-ralewaymedium{font-family:"RalewayMedium";font-size:16px;line-height:20px;margin-bottom:3px}.sale-do__day{margin-left:0}.sale-do__minut{margin-right:0}.work-pics{font-family:"RalewayMedium";font-size:40px;line-height:40px;text-align:center;margin-top:68px}.work-text{font-family:"RalewayRegular";font-size:16px;text-align:center;margin-top:21px}.font_icon.basket__sertificat::before{content:'a';font-size:55px}.font_icon.basket__surprise::before{content:'b';font-size:55px}.lineheight{width:100%;height:22px}</style>
+
+	<!-- Fonts Loader from _fonts.css (HTML5 LocalStorage) -->
+	<!-- <script>!function(){function e(e,t,n){e.addEventListener?e.addEventListener(t,n,!1):e.attachEvent&&e.attachEvent("on"+t,n)}function t(e){return window.localStorage&&localStorage.font_css_cache&&localStorage.font_css_cache_file===e}function n(){if(window.localStorage&&window.XMLHttpRequest)if(t(o))a(localStorage.font_css_cache);else{var n=new XMLHttpRequest;n.open("GET",o,!0),e(n,"load",function(){4===n.readyState&&(a(n.responseText),localStorage.font_css_cache=n.responseText,localStorage.font_css_cache_file=o)}),n.send()}else{var c=document.createElement("link");c.href=o,c.rel="stylesheet",c.type="text/css",document.getElementsByTagName("head")[0].appendChild(c),document.cookie="font_css_cache"}}function a(e){var t=document.createElement("style");t.innerHTML=e,document.getElementsByTagName("head")[0].appendChild(t)}var o="_fonts.css";window.localStorage&&localStorage.font_css_cache||document.cookie.indexOf("font_css_cache")>-1?n():e(window,"load",n)}();</script>-->
+	
+	<!-- Load CSS Compilled without JS -->
+	<link rel="stylesheet" href="libs/owlcarousel2_4/assets/owl.carousel.css">
+	<link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="_fonts.css">
+	<noscript><link rel="stylesheet" href="compiled.min.css"></noscript>
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+
+</head>
+
+<body>
+
+	<!-- Здесь пишем код -->
+	<header class="header-wrapper">
+		<div class="section-logo-nav-basket">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-1">
+						<div class="section-logo">
+							<a href="#"><img src="img/logo.png" alt=""></a>
+						</div>
+					</div>
+					<div class="col-md-8">
+						<nav class="nav-menu">
+							<ul class="nav-menu__list">
+								<li class="nav-menu__item"><a href="">Каталог</a></li>
+								<li class="nav-menu__item"><a href="">Доставка и оплата</a></li>
+								<li class="nav-menu__item"><a href="">Контакты и филиалы</a></li>
+								<li class="nav-menu__item"><a href="">Отзывы</a></li>
+							</ul>
+						</nav>
+					</div>
+					<div class="col-md-3">
+						<div class="basket">
+							<i class="font_icon basket__bag"></i>
+							<span class="basket__my-order">Моя корзина</span>
+							<div class="basket__order">
+								<span class="basket__order-count">2</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="slider-sale-work">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8">
+						<div class="carousel">
+							<div>
+								<div class="slider">
+									<div class="slider__strings">
+										<span class="slider__fisr-string">Успей купить сумку</span>
+										<p class="slider__second-string">со <span class="slider__second-string_bold">скидкой</span></p>
+									</div>
+									<div class="slider__btn"><a href="#">Подробнее</a></div>
+									<div class="slider__discount">-78%</div>
+									<img src="img/bag-slider.png" alt="" class="slider__bag-img">
+								</div>
+							</div>
+							<div>
+								<div class="slider">
+									<div class="slider__strings">
+										<span class="slider__fisr-string">Успей купить сумку</span>
+										<p class="slider__second-string">со <span class="slider__second-string_bold">скидкой</span></p>
+									</div>
+									<div class="slider__btn"><a href="#">Подробнее</a></div>
+									<div class="slider__discount">-78%</div>
+									<img src="img/bag-slider.png" alt="" class="slider__bag-img">
+								</div>
+							</div>
+							<div>
+								<div class="slider">
+									<div class="slider__strings">
+										<span class="slider__fisr-string">Успей купить сумку</span>
+										<p class="slider__second-string">со <span class="slider__second-string_bold">скидкой</span></p>
+									</div>
+									<div class="slider__btn"><a href="#">Подробнее</a></div>
+									<div class="slider__discount">-78%</div>
+									<img src="img/bag-slider.png" alt="" class="slider__bag-img">
+								</div>
+							</div>
+							<div>
+								<div class="slider">
+									<div class="slider__strings">
+										<span class="slider__fisr-string">Успей купить сумку</span>
+										<p class="slider__second-string">со <span class="slider__second-string_bold">скидкой</span></p>
+									</div>
+									<div class="slider__btn"><a href="#">Подробнее</a></div>
+									<div class="slider__discount">-78%</div>
+									<img src="img/bag-slider.png" alt="" class="slider__bag-img">
+								</div>
+							</div>
+							<div>
+								<div class="slider">
+									<div class="slider__strings">
+										<span class="slider__fisr-string">Успей купить сумку</span>
+										<p class="slider__second-string">со <span class="slider__second-string_bold">скидкой</span></p>
+									</div>
+									<div class="slider__btn"><a href="#">Подробнее</a></div>
+									<div class="slider__discount">-78%</div>
+									<img src="img/bag-slider.png" alt="" class="slider__bag-img">
+								</div>
+							</div>
+							<div>
+								<div class="slider">
+									<div class="slider__strings">
+										<span class="slider__fisr-string">Успей купить сумку</span>
+										<p class="slider__second-string">со <span class="slider__second-string_bold">скидкой</span></p>
+									</div>
+									<div class="slider__btn"><a href="#">Подробнее</a></div>
+									<div class="slider__discount">-78%</div>
+									<img src="img/bag-slider.png" alt="" class="slider__bag-img">
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="sale">
+							<p class="sale__fist-string">Новогодняя</p>
+							<p class="sale__second-string">Распродажа</p>
+							<div class="sale__discount">
+								<p>Скидки до <span>-87%</span></p>
+							</div>
+							<p class="sale__propos">Предложение действует:</p>
+							<div class="sale__sale-do">
+								<div class="sale-do__day">
+									<p id="days" class="sale-do_ff-ProximanovaLight">00</p>
+									<p class="sale-do_ff-ralewaymedium">дней</p>
+								</div>
+								<div class="sale-do__hour">
+									<p id="hours" class="sale-do_ff-ProximanovaLight">00</p>
+									<p class="sale-do_ff-ralewaymedium">часов</p>
+								</div>
+								<div class="sale-do__minut">
+									<p id="minutes" class="sale-do_ff-ProximanovaLight">00</p>
+									<p class="sale-do_ff-ralewaymedium">минуты</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="container">
+					<div class="row">
+						<div class="work-pics">
+							<div class="col-md-3">
+								<p>24\7</p>
+							</div>
+							<div class="col-md-3">
+								<p>2000 +</p>
+							</div>
+							<div class="col-md-3">
+								<i class="font_icon basket__sertificat"></i>
+							</div>
+							<div class="col-md-3">
+								<i class="font_icon basket__surprise"></i>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="container">
+					<div class="row">
+						<div class="work-text">
+							<div class="col-md-3">
+								<p>Работаем круглосуточно</p>
+							</div>
+							<div class="col-md-3">
+								<p>Довольных клиетов за 4+ года работы</p>
+							</div>
+							<div class="col-md-3">
+								<p>Все сумки изготовлены из натуральной итальянской кожи</p>
+							</div>
+							<div class="col-md-3">
+								<p>Кошелек из натуральной кожи в подарок </p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="lineheight"></div>
+				
+			</div>
+		</div>
+	</header>
+
+	<div class="s-main">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3">
+					<div class="s-main__searchfilter">
+						<div class="searchfilter__searchbox">
+							<form id="search-form" action="index.html">
+								<i class="fa fa-search"></i>
+								<input id= "searchbox" class="searchbox__input" type="search" placeholder="Поиск товара">
+							</form>
+						</div>
+						<p class="searchfilter_brand">Бренд</p>
+							<form id="filter-form" action="index.html">
+								<p><select name="selectbox" id="selectbox" class="searchfilter_select">
+									<option disabled>Brand</option>
+								    <option value="Hermes">Hermes</option>
+									<option selected value="Prada">Prada</option>
+									<option value="Gucci">Gucci</option>
+									<option value="Chanel">Chanel</option>
+   								</select></p>
+							</form>
+					</div>
+					<div class="s-main__women-menu">
+						<p class="women-menu__first"><a href="">Женское</a></p>
+						<p class="women-menu__second activ"><a href="">Сумки</a></p>
+						<p class="women-menu__second"><a href="">Кошельки</a></p>
+						<p class="women-menu__second"><a href="">Клатчи</a></p>
+						<p class="women-menu__second"><a href="">Косметички</a></p>
+						<p class="women-menu__second"><a href="">Дорожные сумки</a></p>
+						<p class="women-menu__second"><a href="">Рюкзаки</a></p>
+						<p class="women-menu__second"><a href="">Ремни</a></p>
+						<p class="women-menu__second"><a href="">Палантины</a></p>
+						<p class="women-menu__second"><a href="">Очки</a></p>
+						<p class="women-menu__second"><a href="">Чехлы</a></p>
+					</div>
+					<div class="s-main__men-menu">
+						<p class="men-menu__first"><a href="">Мужское</a></p>
+						<p class="men-menu__second"><a href="">Дипломаты</a></p>
+						<p class="men-menu__second"><a href="">Портфели</a></p>
+						<p class="men-menu__second"><a href="">Кошельки</a></p>
+						<p class="men-menu__second"><a href="">Барсетки</a></p>
+						<p class="men-menu__second"><a href="">Почтальонки</a></p>
+						<p class="men-menu__second"><a href="">Ремни</a></p>
+						<p class="men-menu__second"><a href="">Очки</a></p>
+					</div>
+				</div>
+				<div class="col-md-9">
+					<div class="container s-main__bag_margin-41">
+						<div class="row">
+							<div class="col-sm-3">
+								<div class="s-main__bag">
+									<div class="bag__sale bag__sale_margin"><span>-78%</span></div>
+									<img src="img/bag_1.png" alt="" class="bag__bag">
+									<div class="bag__name">DOLCE VITA</div>
+									<div class="bag__old-price">1 768 <span>&#8381;</span></div>
+									<div class="bag__new-price">799 <span>&#8381;</span></div>
+									<div class="bag__button">
+										<a href="">
+											<i class="font_icon bag__bag"></i>
+											<span>В КОРЗИНУ</span>
+										</a>
+									</div>
+									<div class="bag__bottom-margin"></div>
+								</div>
+							</div>
+							<div class="col-sm-3">
+								<div class="s-main__bag">
+									<div class="bag__sale bag__sale_margin"><span>-2%</span></div>
+									<img src="img/bag_2.png" alt="" class="bag__bag">
+									<div class="bag__name">DMarc by Marc Jacobs</div>
+									<div class="bag__old-price">2 999 <span>&#8381;</span></div>
+									<div class="bag__new-price">2 199 <span>&#8381;</span></div>
+									<div class="bag__button">
+										<a href="">
+											<i class="font_icon bag__bag"></i>
+											<span>В КОРЗИНУ</span>
+										</a>
+									</div>
+									<div class="bag__bottom-margin"></div>
+								</div>
+							</div>
+							<div class="col-sm-3">
+								<div class="s-main__bag">
+									<div class="bag__sale bag__sale_margin"><span>-14%</span></div>
+									<img src="img/bag_3.png" alt="" class="bag__bag">
+									<div class="bag__name">DKNY</div>
+									<div class="bag__old-price">2 999 <span>&#8381;</span></div>
+									<div class="bag__new-price">2 199 <span>&#8381;</span></div>
+									<div class="bag__button">
+										<a href="">
+											<i class="font_icon bag__bag"></i>
+											<span>В КОРЗИНУ</span>
+										</a>
+									</div>
+									<div class="bag__bottom-margin"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="container s-main__bag_margin-14">
+						<div class="row">
+							<div class="col-sm-3">
+								<div class="s-main__bag">
+									<div class="bag__sale bag__sale_margin"><span>-78%</span></div>
+									<img src="img/bag_4.png" alt="" class="bag__bag">
+									<div class="bag__name">DKNY</div>
+									<div class="bag__old-price">1 768 <span>&#8381;</span></div>
+									<div class="bag__new-price">799 <span>&#8381;</span></div>
+									<div class="bag__button">
+										<a href="">
+											<i class="font_icon bag__bag"></i>
+											<span>В КОРЗИНУ</span>
+										</a>
+									</div>
+									<div class="bag__bottom-margin"></div>
+								</div>
+							</div>
+							<div class="col-sm-3">
+								<div class="s-main__bag">
+									<div class="bag__sale bag__sale_margin"><span>-14%</span></div>
+									<img src="img/bag_5.png" alt="" class="bag__bag">
+									<div class="bag__name">Marc by Marc Jacobs</div>
+									<div class="bag__old-price">2 999 <span>&#8381;</span></div>
+									<div class="bag__new-price">2 199 <span>&#8381;</span></div>
+									<div class="bag__button">
+										<a href="">
+											<i class="font_icon bag__bag"></i>
+											<span>В КОРЗИНУ</span>
+										</a>
+									</div>
+									<div class="bag__bottom-margin"></div>
+								</div>
+							</div>
+							<div class="col-sm-3">
+								<div class="s-main__bag">
+									<div class="bag__sale bag__sale_margin"><span>-2%</span></div>
+									<img src="img/bag_6.png" alt="" class="bag__bag">
+									<div class="bag__name">DKNY</div>
+									<div class="bag__old-price">2 999 <span>&#8381;</span></div>
+									<div class="bag__new-price">2 199 <span>&#8381;</span></div>
+									<div class="bag__button">
+										<a href="">
+											<i class="font_icon bag__bag"></i>
+											<span>В КОРЗИНУ</span>
+										</a>
+									</div>
+									<div class="bag__bottom-margin"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="container s-main__bag_margin-14">
+						<div class="row">
+							<div class="col-sm-3">
+								<div class="s-main__bag">
+									<div class="bag__sale bag__sale_margin"><span>-78%</span></div>
+									<img src="img/bag_7.png" alt="" class="bag__bag">
+									<div class="bag__name">DOLCE VITA</div>
+									<div class="bag__old-price">1 768 <span>&#8381;</span></div>
+									<div class="bag__new-price">799 <span>&#8381;</span></div>
+									<div class="bag__button">
+										<a href="">
+											<i class="font_icon bag__bag"></i>
+											<span>В КОРЗИНУ</span>
+										</a>
+									</div>
+									<div class="bag__bottom-margin"></div>
+								</div>
+							</div>
+							<div class="col-sm-3">
+								<div class="s-main__bag">
+									<div class="bag__sale bag__sale_margin"><span>-2%</span></div>
+									<img src="img/bag_8.png" alt="" class="bag__bag">
+									<div class="bag__name">DMarc by Marc Jacobs</div>
+									<div class="bag__old-price">2 999 <span>&#8381;</span></div>
+									<div class="bag__new-price">2 199 <span>&#8381;</span></div>
+									<div class="bag__button">
+										<a href="">
+											<i class="font_icon bag__bag"></i>
+											<span>В КОРЗИНУ</span>
+										</a>
+									</div>
+									<div class="bag__bottom-margin"></div>
+								</div>
+							</div>
+							<div class="col-sm-3">
+								<div class="s-main__bag">
+									<div class="bag__sale bag__sale_margin"><span>-14%</span></div>
+									<img src="img/bag_9.png" alt="" class="bag__bag">
+									<div class="bag__name">DKNY</div>
+									<div class="bag__old-price">2 999 <span>&#8381;</span></div>
+									<div class="bag__new-price">2 199 <span>&#8381;</span></div>
+									<div class="bag__button">
+										<a href="">
+											<i class="font_icon bag__bag"></i>
+											<span>В КОРЗИНУ</span>
+										</a>
+									</div>
+									<div class="bag__bottom-margin"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<footer>
+		<div class="footer_margin-top"></div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3">
+					<p class="footer__title">О нас</p>
+					<p><a href="" class="footer__about">Доставка и оплата</a></p>
+					<p><a href="" class="footer__about">О компани</a></p>
+					<p><a href="" class="footer__about">Обмен и возврат</a></p>
+					<p><a href="" class="footer__about">Акции и скидки</a></p>
+					<p><a href="" class="footer__about">Оптовикам</a></p>
+				</div>
+				<div class="col-md-4">
+					<p class="footer__title">Мы в социальных сетях</p>
+					<div class="footer__social">
+						<a href=""><img src="img/vk.jpg" alt=""></a>
+					</div>
+					<div class="footer__social">
+						<a href=""><img src="img/facebook.jpg" alt=""></a>
+					</div>
+					<div class="footer__social">
+						<a href=""><img src="img/twitter.jpg" alt=""></a>
+					</div>
+					<div class="footer__social">
+						<a href=""><img src="img/instagram.jpg" alt=""></a>
+					</div>
+					<p class="footer__title footer__title_margin">Способы оплаты</p>
+					<div class="footer__pay">
+						<a href=""><img src="img/mastercard.jpg" alt=""></a>
+					</div>
+					<div class="footer__pay">
+						<a href=""><img src="img/visa.jpg" alt=""></a>
+					</div>
+					<div class="footer__pay">
+						<a href=""><img src="img/paypal.jpg" alt=""></a>
+					</div>
+				</div> 
+				<div class="col-md-5">
+					<p class="footer__title">Контактная информация</p>
+					<p class="footer__contacts-figures">8 (123) 456-78-91 <span>Москва</span></p>
+					<p class="footer__contacts-figures">8 (123) 456-78-91 <span>Питер</span></p>
+					<p class="footer__contacts-figures">8 (123) 456-78-91 <span>Ростов</span></p>
+					<p class="footer__contacts">mail@mail.com</p>
+					<p class="footer__contacts">г. Москва</p>
+				</div>
+			</div>
+		</div>
+		<div class="footer_margin-bottom"></div>
+	</footer>
+
+	<div class="hidden"></div>
+
+	<!--[if lt IE 9]>
+	<script src="libs/html5shiv/es5-shim.min.js"></script>
+	<script src="libs/html5shiv/html5shiv.min.js"></script>
+	<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
+	<script src="libs/respond/respond.min.js"></script>
+	<![endif]-->
+
+	<!-- Load CSS (remove/comment after release) -->
+// 	<script>
+	//Load Libs CSS
+	var ms=document.createElement("link");ms.rel="stylesheet";
+	ms.href="libs/animate/animate.css";document.getElementsByTagName("head")[0].appendChild(ms);
+
+	// //Header Styles (compress & paste to header after release)
+	// var ms=document.createElement("link");ms.rel="stylesheet";
+	// ms.href="_header.css";document.getElementsByTagName("head")[0].appendChild(ms);
+	
+	//User Styles
+	var ms=document.createElement("link");ms.rel="stylesheet";
+	ms.href="_main.css";document.getElementsByTagName("head")[0].appendChild(ms);
+	var ms=document.createElement("link");ms.rel="stylesheet";
+	ms.href="_media.css";document.getElementsByTagName("head")[0].appendChild(ms);
+// </script>
+
+<!-- Load CSS compiled without Bootstrap & Header styles (after release) -->
+<!-- <script>var ms=document.createElement("link");ms.rel="stylesheet";
+	ms.href="compiled.min.css";document.getElementsByTagName("head")[0].appendChild(ms);
+</script> -->
+
+<!-- Load Scripts -->
+<script>var scr = {"scripts":[
+	{"src" : "libs/modernizr/modernizr.js", "async" : false},
+	{"src" : "libs/jquery/jquery-1.11.2.min.js", "async" : false},
+	{"src" : "libs/waypoints/waypoints.min.js", "async" : false},
+	{"src" : "libs/animate/animate-css.js", "async" : false},
+	{"src" : "libs/plugins-scroll/plugins-scroll.js", "async" : false},
+	{"src" : "libs/owlcarousel2_4/owl.carousel.min.js", "async" : false},
+	{"src" : "js/common.js", "async" : false}
+	]};!function(t,n,r){"use strict";var c=function(t){if("[object Array]"!==Object.prototype.toString.call(t))return!1;for(var r=0;r<t.length;r++){var c=n.createElement("script"),e=t[r];c.src=e.src,c.async=e.async,n.body.appendChild(c)}return!0};t.addEventListener?t.addEventListener("load",function(){c(r.scripts);},!1):t.attachEvent?t.attachEvent("onload",function(){c(r.scripts)}):t.onload=function(){c(r.scripts)}}(window,document,scr);
+</script>
+
+<!-- <script src="libs/modernizr/modernizr.js"></script>
+<script src="libs/jquery/jquery-1.11.2.min.js"></script>
+<script src="libs/waypoints/waypoints.min.js"></script>
+<script src="libs/animate/animate-css.js"></script>
+<script src="libs/plugins-scroll/plugins-scroll.js"></script>
+<script src="libs/owlcarousel2_4/owl.carousel.min.js"></script>
+<script src="js/common.js"></script> -->
+
+
+</body>
+</html>

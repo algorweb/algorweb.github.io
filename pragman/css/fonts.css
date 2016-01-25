@@ -1,0 +1,67 @@
+@font-face {
+	font-family: "RobotoRegular";
+	src: url("../fonts/RobotoRegular/RobotoRegular.eot");
+	src: url("../fonts/RobotoRegular/RobotoRegular.eot?#iefix") format("embedded-opentype"),
+			 url("../fonts/RobotoRegular/RobotoRegular.woff") format("woff"),
+			 url("../fonts/RobotoRegular/RobotoRegular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+
+/* font-family: "SixCaps"; */
+@font-face {
+    font-family: "SixCaps";
+    src: url("../fonts/SixCaps/SixCaps.eot");
+    src: url("../fonts/SixCaps/SixCaps.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/SixCaps/SixCaps.woff") format("woff"),
+    url("../fonts/SixCaps/SixCaps.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+/* font-family: "barkentina"; */
+@font-face {
+    font-family: "barkentina";
+    src: url("../fonts/barkentina/barkentina.eot");
+    src: url("../fonts/barkentina/barkentina.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/barkentina/barkentina.woff") format("woff"),
+    url("../fonts/barkentina/barkentina.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+/* font-family: "Condens"; */
+@font-face {
+    font-family: "Condens";
+    src: url("../fonts/Condens/Condens.eot");
+    src: url("../fonts/Condens/Condens.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/Condens/Condens.woff") format("woff"),
+    url("../fonts/Condens/Condens.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+/* font-family: "aHuxleycaps"; */
+@font-face {
+    font-family: "aHuxleycaps";
+    src: url("../fonts/aHuxleycaps/aHuxleycaps.eot");
+    src: url("../fonts/aHuxleycaps/aHuxleycaps.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/aHuxleycaps/aHuxleycaps.woff") format("woff"),
+    url("../fonts/aHuxleycaps/aHuxleycaps.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+/* font-family: "aHuxleycapsBold"; */
+@font-face {
+    font-family: "aHuxleycapsBold";
+    src: url("../fonts/aHuxleycapsBold/aHuxleycapsBold.eot");
+    src: url("../fonts/aHuxleycapsBold/aHuxleycapsBold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/aHuxleycapsBold/aHuxleycapsBold.woff") format("woff"),
+    url("../fonts/aHuxleycapsBold/aHuxleycapsBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: bold;
+}

@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>SITE</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="libs/fontawesome/css/font-awesome.min.css">
+	
+	<link rel="stylesheet" href="main.css">
+	<link rel="stylesheet" href="fonts.css">
+	<link rel="stylesheet" href="media.css">
+
+
+
+</head>
+<body>
+
+	<div class="loader">
+		<div class="loader_inner"></div>
+	</div>
+
+	<header id="head" class="section-head" data-parallax="scroll" data-image-src="img/bg.jpg" data-z-index="1">
+		<div class="head-margin"></div>
+		<div class="head-logo-menu-wrapper">
+		<div class="container">
+			<div class="row">
+				<div class="head-logo-menu">
+					<div class="col-md-2 col-sm-3 col-xs-3 head__logo">
+						<a href="index.html">AlGor</a>
+					</div>
+					<div class="col-md-10 col-sm-9 col-xs-9 head__menu">
+						<ul class="head__menu-ul">
+							<li class="head__menu-li activ"><a href="#head">Главная</a></li>
+							<li class="head__menu-li"><a href="#about">О себе</a></li>
+							<li class="head__menu-li"><a href="#portfolio">Портфолио</a></li>
+							<li class="head__menu-li"><a href="#contacts">Контакты</a></li>
+						</ul>
+					</div>
+					<!--  -->
+					<div class="col-md-10 col-sm-9 col-xs-9 head__menu-toggle-wrap">
+						<label for="head__menu-toggle"><i class="fa fa-bars head__menu-toggle-button"></i></label>  
+						<input type="checkbox" id="head__menu-toggle"/>
+
+						<div class="head__menu-items">
+							<ul>
+								<li><a href="#head">Главная</a></li>
+								<li><a href="#about">О себе</a></li>
+								<li><a href="#portfolio">Портфолио</a></li>
+								<li><a href="#contacts">Контакты</a></li>
+							</ul>
+						</div>
+					</div>
+					<!--  -->
+				</div>
+			</div>
+		</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 col-sm-12 col-xs-12">
+					<div class="head__fio">
+						Александр Горощенко
+					</div>
+				</div>
+			</div>	
+			<div class="row">
+				<div class="col-md-12 col-sm-12 col-xs-12">
+					<div class="head__developer">Front-End разработчик</div>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 col-lg-12">
+					<div class="head__social-wrapper">
+						<div class="social-wrapper__social-item"><a href="http://vk.com/id345972020" class=""><i class="fa fa-vk"></i></a></div>
+						<div class="social-wrapper__social-item"><a href="https://www.facebook.com/profile.php?id=100011174261326" class=""><i class="fa fa-facebook"></i></a></div>
+						<div class="social-wrapper__social-item"><a href="skype:aleksandr.goroshchenko?chat" class=""><i class="fa fa-skype"></i></a></div>
+						<div class="social-wrapper__social-item"><a href="mailto:a.goroshchenko@yandex.ru" class=""><i class="fa fa-envelope"></i></a></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<section id="about" class="section-about">
+		<div class="line_color-green">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="line">
+							<h2>О себе</h2>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3 col-sm-4 col-xs-12">
+					<img class="about-picture" src="img/avatar.jpg" alt="">
+				</div>
+				<div class="col-md-9 col-sm-8 col-xs-12">
+					<div class="about-me">
+						<p class="about-me__fist-paragraph">Я целеустремленный, коммуникабельный, способный учиться, ответственный, с активной жизненной позицией. В интернете я работаю с 2015 года.</p>
+						<h3>Мои навыки:</h3>
+						<p class="about-me__paragraph">HTML5, CSS3<p>
+						<h3>Я использую следующие инструменты:</h3>
+						<p class="about-me__paragraph">Firefox Firebug, SublimeText3, Adobe Creative Cloud, Bootstrap</p>
+						<h3></h3>
+						<p class="about-me__paragraph about-me__last-paragraph">Я готов учиться, и учиться быстро ... любые технологии, которые должны быть использованы в вашей задаче. Я готов работать 24/7, полный или неполный рабочий день.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="portfolio" class="section-portfolio">
+		<div class="line_color-green">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="line">
+							<h2>Портфолио</h2>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 col-sm-12 col-xs-12">
+					<div class="portfolio__controls controls">
+						<ul>
+							<li class="filter active" data-filter="all">Все работы</li>
+							<li class="filter" data-filter=".category-sites">Сайты</li>
+							<li class="filter" data-filter=".category-layout">Верстка</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div id="portfolio-item">
+					<div class="col-md-3 col-sm-4 col-xs-6 mix category-sites portfolio-item_width">
+						<img alt="Сайт юридической компании" src="img/pragman.jpg">
+						<div class="portfolio-item__text">
+							<h5>Сайт юридической компании</h5>
+							<p>"Pragman"</p>
+							<a href="pragman/index.html" target="blank">Перейти</a>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-4 col-xs-6 mix category-layout portfolio-item_width">
+						<img alt="Сайт юридической компании" src="img/fashion.jpg">
+						<div class="portfolio-item__text">
+							<h5>Верстка интернет-магазина</h5>
+							<p>"LaModa"</p>
+							<a href="lamoda/index.html" target="blank">Перейти</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="contacts" class="section-contacts">
+		<div class="line_color-green">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="line">
+							<h2>Контакты</h2>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="contacts-bg">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-7">
+						<form id="contacts__form">
+							<input type="text" name="name" class="form__name" placeholder="Ваше имя" required="required">
+							<input type="text" name="email" class="form__email" placeholder="Ваш e-mail" required="required">
+							<input type="text" name="subject" class="form__subject" placeholder="Тема сообщения" required="required">
+							<textarea name="text" class="form__text" placeholder="Текст сообщения"></textarea>
+							<button><i class="fa fa-paper-plane-o"></i>
+Отправить</button>
+						</form>
+					</div>
+					<div class="col-md-5">
+						<div class="contacts__mail-skype">
+							<p>
+								<i class="fa fa-vk"></i><a href="http://vk.com/id345972020">Aleksandr Goroshchenko</a>
+							</p>
+							<p>
+								<i class="fa fa-facebook"></i><a href="https://www.facebook.com/profile.php?id=100011174261326">Aleksandr Goroshchenko</a>
+							</p>
+							<p>
+								<i class="fa fa-skype"></i><a href="skype:aleksandr.goroshchenko">aleksandr.goroshchenko</a>
+							</p>
+							<p>
+								<i class="fa fa-envelope"></i><a href="mailto:a.goroshchenko@yandex.ru">a.goroshchenko@yandex.ru</a>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 footer__social">
+					<div class="footer__social-item"><a href="http://vk.com/id345972020" class=""><i class="fa fa-vk"></i></a></div>
+					<div class="footer__social-item"><a href="https://www.facebook.com/profile.php?id=100011174261326" class=""><i class="fa fa-facebook"></i></a></div>
+					<div class="footer__social-item"><a href="#" class=""><i class="fa fa-skype"></i></a></div>
+					<div class="footer__social-item"><a href="#" class=""><i class="fa fa-envelope"></i></a></div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12 footer__copyrite">
+					<i class="fa fa-copyright"></i> ALGOR
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+
+	<script src="libs/jquery/jquery-1.11.2.min.js"></script>
+	<script src="libs/bootstrap/js/bootstrap.min.js"></script>
+	<script src="libs/parallax/parallax.min.js"></script>
+	<script src="libs/mixitup/jquery.mixitup.min.js"></script>
+	<script src="libs/PageScroll2id/PageScroll2id.min.js"></script>
+	<script src="js/common.js"></script>
+</body>
+</html>
