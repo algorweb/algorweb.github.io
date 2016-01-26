@@ -1,4 +1,7 @@
-body {
+body{
+	overflow-x: hidden !important;
+}
+.wrapper{
 	overflow-x: hidden !important;
 }
 section,
