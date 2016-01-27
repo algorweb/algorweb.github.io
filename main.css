@@ -3,6 +3,7 @@ body{
 }
 .wrapper{
 	overflow-x: hidden !important;
+	width: 100%;
 }
 section,
 header{
