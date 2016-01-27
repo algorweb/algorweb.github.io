@@ -29,12 +29,13 @@
 	.head__fio{
 		margin: 80px auto 0;
 		font-size: 38px;
-		width: 570px;
+		width: 80%;
 		/*width: 570px;*/
 	}
 	.head__developer {
 		font-size: 25px;
-		width: 510px;
+		/*width: 510px;*/
+		width: 75%;
 	}
 	.head-logo-menu{
 		position: fixed;
