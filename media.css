@@ -28,6 +28,12 @@
 @media only screen and (max-width : 768px) {
 	.head__fio{
 		margin: 80px auto 0;
+		font-size: 38px;
+		width: 570px;
+	}
+	.head__developer {
+		font-size: 25px;
+		width: 510px;
 	}
 	.head-logo-menu{
 		position: fixed;
@@ -84,14 +90,9 @@
 @media only screen and (max-width : 600px) {
 	.head__fio {
 		margin: 40px auto auto;
-		font-size: 38px;
-		width: 570px;
+		
 	}
-	.head__developer {
-		font-size: 25px;
-		width: 510px;
-	}
-
+	
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
 	.head__fio{
