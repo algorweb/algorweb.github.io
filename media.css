@@ -24,12 +24,18 @@
 	}
 }
 
+@media only screen and (width : 768px) {
+	.about-picture{
+		width: 70% !important;
+	}
+}
+
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
 	.head__fio{
 		margin: 80px auto 0;
 		font-size: 38px;
-		width: 90%;
+		width: 90% !important;
 		/*width: 570px;*/
 	}
 	.head__developer {
@@ -99,7 +105,7 @@
 @media only screen and (max-width : 480px) {
 	.head__fio{
 		margin: 30px auto 0;
-		width: 450px;
+		/*width: 450px;*/
 		font-size: 30px;
 	}
 	.head__developer{
@@ -107,7 +113,7 @@
 		font-weight: 600;
 		margin: 20px auto 0;
 		padding: 5px;
-		width: 440px;
+		/*width: 440px;*/
 	}
 	.social-wrapper__social-item {
 		height: 40px;

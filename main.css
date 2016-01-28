@@ -360,13 +360,13 @@ h2{
 	font-family: "LatoLight",Arial,sans-serif;
 	font-size: 16px;
 }
-.portfolio-item__text a{
-	color: #1abc9c;
-	font-family: "LatoLight",Arial,sans-serif;
-	font-size: 10px;
-	text-decoration: none;
-	border: 1px solid #1abc9c;
-	padding: 5px 10px;
+.portfolio-item__text a {
+    border: 1px solid #1abc9c;
+    color: #1abc9c;
+    font-family: "LatoLight",Arial,sans-serif;
+    font-size: 10px;
+    padding: 10px 20px;
+    text-decoration: none;
 }
 .mix{
 	padding: 0;
