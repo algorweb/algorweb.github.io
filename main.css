@@ -1,10 +1,6 @@
 body{
 	overflow-x: hidden !important;
 }
-.wrapper{
-	overflow-x: hidden !important;
-	width: 100%;
-}
 section,
 header{
 	position: relative;
@@ -220,7 +216,6 @@ label {
 }
 /*Header / END*/
 
-/*Section About / START*/
 .line{
 	background-color: #1abc9c;
 	width: 100%;
@@ -251,47 +246,6 @@ h2{
 	margin: 0;
 	line-height: 90px;
 }
-.about-picture{
-	width: 100%;
-	border-radius: 50%;
-	border: 12px solid #1abc9c;
-	margin-top: 50px;
-}
-.about-me{
-	margin-top: 50px;
-	margin-bottom: 50px;
-}
-.about-me__fist-paragraph{
-	color: #484848;
-	font-family: "LatoLight",Arial,sans-serif;
-	font-size: 22px;
-	font-weight: 300;
-	letter-spacing: 1px;
-	line-height: 35px;
-	text-align: left;
-}
-.about-me h3{
-	color: #484848;
-	font-family: "LatoBlack",Arial,sans-serif;
-	font-size: 16px;
-	line-height: 25px;
-	padding-top: 20px;
-	text-align: left;
-	text-transform: uppercase;
-}
-.about-me__paragraph{
-	font-family: "LatoRegular",Arial,sans-serif;
-	color: #656565;
-	font-size: 15px;
-	font-weight: 400;
-	line-height: 33px;
-	text-align: left;
-}
-.about-me__last-paragraph{
-	text-transform: uppercase;
-}
-/*Section About / END*/
-
 /*Section Portfolio / START*/
 .section-portfolio{
 	background-color: #333;
@@ -374,8 +328,13 @@ h2{
 /*Section Portfolio / END*/
 
 /*Section Contacts / START*/
-.section-contacts{
-	/*height: 620px;*/
+.section-contacts__picture{
+	width: 50%;
+	margin-left: 25%;
+	margin-right: 25%;
+	border-radius: 50%;
+	border: 12px solid #1abc9c;
+	margin-top: 70px;
 }
 .section-contacts{
 	background-image: url(img/bg_contacts.jpg);
