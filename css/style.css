@@ -1312,23 +1312,27 @@ p {
   .contacts__item {
     margin-bottom: 15px;
     width: 100%; }
-  .contacts__social {
+  .contacts__link {
     position: relative;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    width: auto;
     /* padding-right: 30px; */
     /* width: 20px; */
     /* height: 20px; */
-    color: #bec1c8;
+    color: #2b303c;
     -webkit-transition-property: -webkit-transform;
     transition-property: -webkit-transform;
     transition-property: transform;
     transition-property: transform, -webkit-transform;
     -webkit-transition-duration: 0.5s;
             transition-duration: 0.5s; }
-    .contacts__social:hover {color: #5a5d63; }
-    .contacts__social:hover svg {fill: #5a5d63; }
+    .contacts__link svg {
+      margin-right: 15px;
+    }
+    .contacts__link:hover {color: #bec1c8; }
+    .contacts__link:hover svg {fill: #bec1c8; }
     /* .contacts__social::after { */
       /* content: "";
       position: absolute;
