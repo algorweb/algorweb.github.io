@@ -34,9 +34,9 @@
         <div class="main-nav__wrapper">
             <ul class="main-nav__list site-list">
                 <li class="site-list__item"><a href="#home" class="site-list__link">Главная</a></li>
+                <li class="site-list__item"><a href="#projects" class="site-list__link">Проекты</a></li>
                 <li class="site-list__item"><a href="#about" class="site-list__link">Обо мне</a></li>
                 <li class="site-list__item"><a href="#skills" class="site-list__link">Навыки</a></li>
-                <li class="site-list__item"><a href="#projects" class="site-list__link">Проекты</a></li>
                 <li class="site-list__item"><a href="#contacts" class="site-list__link">Контакты</a></li>
             </ul>
         </div>
@@ -49,101 +49,42 @@
         </div>
         <div class="page-header__social">
             <ul class="social">
-                <li class="social__item"><a href="skype:aleksandr.goroshchenko" class="social__link"><span
-                            class="visually-hidden">Ссылка на Skype </span><svg class="social__icon" width="16"
-                            height="16">
-                            <use xlink:href="img/sprite.svg#skype-icon"></use>
-                        </svg></a></li>
-                <li class="social__item"><a href="mailto:a.goroshchenko@yandex.ru" class="social__link"><span
-                            class="visually-hidden">Ссылка на email </span><svg class="social__icon" width="16"
-                            height="16">
+                <li class="social__item">
+                    <a href="mailto:a.goroshchenko@yandex.ru" class="social__link">
+                        <span class="visually-hidden">Ссылка на email</span>
+                        <svg class="social__icon" width="16" height="16">
                             <use xlink:href="img/sprite.svg#email-icon"></use>
-                        </svg></a></li>
-                <li class="social__item"><a href="http://vk.com/id345972020" class="social__link"><span
-                            class="visually-hidden">Ссылка на социальную сеть ВКонтакте </span><svg class="social__icon"
-                            width="16" height="16">
+                        </svg>
+                    </a>
+                </li>
+                <li class="social__item">
+                    <a href="http://vk.com/id345972020" class="social__link">
+                        <span class="visually-hidden">Ссылка на ВКонтакте</span>
+                        <svg class="social__icon" width="16" height="16">
                             <use xlink:href="img/sprite.svg#vk-icon"></use>
-                        </svg></a></li>
-                <li class="social__item"><a href="https://www.facebook.com/profile.php?id=100011174261326"
-                        class="social__link"><span class="visually-hidden">Ссылка на социальную сеть Facebook
-                        </span><svg class="social__icon" width="16" height="16">
-                            <use xlink:href="img/sprite.svg#facebook-icon"></use>
-                        </svg></a></li>
+                        </svg>
+                    </a>
+                </li>
+                <li class="social__item">
+                    <a href="https://t.me/+79384677815" class="social__link">
+                        <span class="visually-hidden">Ссылка на Telegram</span>
+                        <svg class="social__icon" width="16" height="16">
+                            <use xlink:href="img/sprite.svg#telegram-icon"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="social__item">
+                    <a href="viber://chat?number=+380501929567" class="social__link">
+                        <span class="visually-hidden">Ссылка на Viber</span>
+                        <svg class="social__icon" width="16" height="16">
+                            <use xlink:href="img/sprite.svg#viber-icon"></use>
+                        </svg>
+                    </a>
+                </li>
             </ul>
         </div>
     </header>
     <main class="page-main">
-        <section id="about" class="about">
-            <div class="about__description gl-description-right">
-                <h2 class="about__title gl-title">Обо Мне</h2>
-                <p class="about__text gl-title-text">Моя ЦЕЛЬ&nbsp;&mdash; сделать из&nbsp;макетов и&nbsp;идей целостный
-                    продукт, с&nbsp;качественно выполненной технической частью, который
-                    повысит шанс клиента на&nbsp;привлечение новых пользователей и&nbsp;увеличение продаж.</p><a
-                    href="#contacts" class="about__button btn btn--color-dark">Контакты</a>
-            </div>
-            <div class="about__photo">
-
-                <picture>
-                    <source srcset="img/about.avif" type="image/avif">
-                    <source srcset="img/about.webp" type="image/webp">
-                    <img loading="lazy" src="img/about.jpg" class="about__img" width="767" height="546"
-                        alt="Александр Горощенко - Html-Верстальщик">
-                </picture>
-
-            </div>
-        </section>
-        <section id="skills" class="skills">
-            <div class="skills__description gl-description-left">
-                <h2 class="skills__title gl-title">Мои Навыки</h2>
-                <p class="skills__text gl-title-text">В&nbsp;такой отрасли как Front-End постоянно появляются
-                    и&nbsp;изменяются
-                    технологии. Поэтому очень важно постоянно держать руку на&nbsp;пульсе и&nbsp;изучать все новые
-                    необходимые технологии.</p>
-            </div>
-            <div class="skills__items">
-                <div class="skills__item">
-                    <h3 class="skills__caption">HTML</h3>
-                    <p class="skills__background">Разметка страницы</p>
-                </div>
-                <div class="skills__item">
-                    <h3 class="skills__caption">CSS, SCSS</h3>
-                    <p class="skills__background">Стилизация элементов на странице</p>
-                </div>
-                <div class="skills__item">
-                    <h3 class="skills__caption">JavaScript (кастомизация)</h3>
-                    <p class="skills__background">Интерактив, взаимодействие с пользователем</p>
-                </div>
-                <div class="skills__item">
-                    <h3 class="skills__caption">jQuery (кастомизация)</h3>
-                    <p class="skills__background"></p>
-                </div>
-                <div class="skills__item">
-                    <h3 class="skills__caption">GULP</h3>
-                    <p class="skills__background"></p>
-                </div>
-                <div class="skills__item">
-                    <h3 class="skills__caption">GIT</h3>
-                    <p class="skills__background"></p>
-                </div>
-                <div class="skills__item">
-                    <h3 class="skills__caption">Адаптивность</h3>
-                    <p class="skills__background"></p>
-                </div>
-                <div class="skills__item">
-                    <h3 class="skills__caption">Кроссбраузерность </h3>
-                    <p class="skills__background"></p>
-                </div>
-                <div class="skills__item">
-                    <h3 class="skills__caption">Accessibility</h3>
-                    <p class="skills__background">Доступность для людей с&nbsp;ограниченными
-                        возможностями, поисковых роботов, читалок.</p>
-                </div>
-                <div class="skills__item">
-                    <h3 class="skills__caption">Photoshop Figma Avocode</h3>
-                    <p class="skills__background"></p>
-                </div>
-            </div>
-        </section>
         <section id="projects" class="projects">
             <div class="projects__description gl-description-right">
                 <h2 class="projects__title gl-title">Проекты</h2>
@@ -512,6 +453,77 @@
                 </div>
             </div>
         </section>
+        <section id="about" class="about">
+            <div class="about__description gl-description-right">
+                <h2 class="about__title gl-title">Обо Мне</h2>
+                <p class="about__text gl-title-text">Моя ЦЕЛЬ&nbsp;&mdash; сделать из&nbsp;макетов и&nbsp;идей целостный
+                    продукт, с&nbsp;качественно выполненной технической частью, который
+                    повысит шанс клиента на&nbsp;привлечение новых пользователей и&nbsp;увеличение продаж.</p><a
+                    href="#contacts" class="about__button btn btn--color-dark">Контакты</a>
+            </div>
+            <div class="about__photo">
+
+                <picture>
+                    <source srcset="img/about.avif" type="image/avif">
+                    <source srcset="img/about.webp" type="image/webp">
+                    <img loading="lazy" src="img/about.jpg" class="about__img" width="767" height="546"
+                        alt="Александр Горощенко - Html-Верстальщик">
+                </picture>
+
+            </div>
+        </section>
+        <section id="skills" class="skills">
+            <div class="skills__description gl-description-left">
+                <h2 class="skills__title gl-title">Мои Навыки</h2>
+                <p class="skills__text gl-title-text">В&nbsp;такой отрасли как Front-End постоянно появляются
+                    и&nbsp;изменяются
+                    технологии. Поэтому очень важно постоянно держать руку на&nbsp;пульсе и&nbsp;изучать все новые
+                    необходимые технологии.</p>
+            </div>
+            <div class="skills__items">
+                <div class="skills__item">
+                    <h3 class="skills__caption">HTML</h3>
+                    <p class="skills__background">Разметка страницы</p>
+                </div>
+                <div class="skills__item">
+                    <h3 class="skills__caption">CSS, SCSS</h3>
+                    <p class="skills__background">Стилизация элементов на странице</p>
+                </div>
+                <div class="skills__item">
+                    <h3 class="skills__caption">JavaScript (кастомизация)</h3>
+                    <p class="skills__background">Интерактив, взаимодействие с пользователем</p>
+                </div>
+                <div class="skills__item">
+                    <h3 class="skills__caption">jQuery (кастомизация)</h3>
+                    <p class="skills__background"></p>
+                </div>
+                <div class="skills__item">
+                    <h3 class="skills__caption">GULP</h3>
+                    <p class="skills__background"></p>
+                </div>
+                <div class="skills__item">
+                    <h3 class="skills__caption">GIT</h3>
+                    <p class="skills__background"></p>
+                </div>
+                <div class="skills__item">
+                    <h3 class="skills__caption">Адаптивность</h3>
+                    <p class="skills__background"></p>
+                </div>
+                <div class="skills__item">
+                    <h3 class="skills__caption">Кроссбраузерность </h3>
+                    <p class="skills__background"></p>
+                </div>
+                <div class="skills__item">
+                    <h3 class="skills__caption">Accessibility</h3>
+                    <p class="skills__background">Доступность для людей с&nbsp;ограниченными
+                        возможностями, поисковых роботов, читалок.</p>
+                </div>
+                <div class="skills__item">
+                    <h3 class="skills__caption">Photoshop Figma Avocode</h3>
+                    <p class="skills__background"></p>
+                </div>
+            </div>
+        </section>
         <section id="contacts" class="contacts">
             <div class="contacts__description gl-description-left">
                 <h2 class="contacts__title gl-title">Контакты</h2>
@@ -552,16 +564,14 @@
                                 vk.com/id345972020
                             </a>
                         </li>
-                        <li class="contacts__item"><a href="https://t.me/+79384677815"
-                                class="contacts__link">
+                        <li class="contacts__item"><a href="https://t.me/+79384677815" class="contacts__link">
                                 <svg class="" width="20" height="20">
                                     <use xlink:href="img/sprite.svg#telegram-icon"></use>
                                 </svg>
                                 Telegram
                             </a>
                         </li>
-                        <li class="contacts__item"><a href="viber://chat?number=+380501929567"
-                                class="contacts__link">
+                        <li class="contacts__item"><a href="viber://chat?number=+380501929567" class="contacts__link">
                                 <svg class="" width="20" height="20">
                                     <use xlink:href="img/sprite.svg#viber-icon"></use>
                                 </svg>
