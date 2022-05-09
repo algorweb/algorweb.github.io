@@ -1107,7 +1107,7 @@ p {
     background-color: #fefefe; }
   .modal__close {
     position: absolute;
-    right: 10px;
+    right: 20px;
     top: 10px;
     z-index: 1;
     margin: 0;
@@ -1251,7 +1251,7 @@ p {
 
 @media (min-width: 1124px) {
   .carousel {
-    padding: 20px 170px; }
+    padding: 20px 75px; }
     .carousel__details-tech {
       -webkit-box-orient: horizontal;
       -webkit-box-direction: normal;
@@ -1318,9 +1318,6 @@ p {
     display: -ms-flexbox;
     display: flex;
     width: auto;
-    /* padding-right: 30px; */
-    /* width: 20px; */
-    /* height: 20px; */
     color: #2b303c;
     -webkit-transition-property: -webkit-transform;
     transition-property: -webkit-transform;
@@ -1333,32 +1330,7 @@ p {
     }
     .contacts__link:hover {color: #bec1c8; }
     .contacts__link:hover svg {fill: #bec1c8; }
-    /* .contacts__social::after { */
-      /* content: "";
-      position: absolute;
-      left: 33px;
-      top: 50%;
-      display: block;
-      width: 25px;
-      height: 1px;
-      background-color: #2b303c;
-      -webkit-animation-name: strechin;
-              animation-name: strechin;
-      -webkit-animation-duration: 0.5s;
-              animation-duration: 0.5s;
-      -webkit-animation-fill-mode: forwards;
-              animation-fill-mode: forwards; }
-    .contacts__social:hover {
-      -webkit-transform: translateX(-15px);
-              transform: translateX(-15px); }
-    .contacts__social:hover::after {
-      -webkit-animation-name: strechout;
-              animation-name: strechout;
-      -webkit-animation-duration: 0.5s;
-              animation-duration: 0.5s;
-      -webkit-animation-fill-mode: forwards;
-              animation-fill-mode: forwards; } */
-  .contacts__name, .contacts__email, .contacts__massage {
+    .contacts__name, .contacts__email, .contacts__massage {
     -webkit-appearance: none;
     margin-top: 40px;
     outline: none;

@@ -1,8 +1,0 @@
-root: true
-
-env:
-  browser: true
-  amd: true
-
-extends:
-  "htmlacademy/es5"
