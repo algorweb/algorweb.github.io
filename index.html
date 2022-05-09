@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>Александр Горощенко - Html-Верстальщик</title>
-    <link rel="stylesheet" href="css/style.min.css">
+    <!-- <link rel="stylesheet" href="css/style.min.css"> -->
+    <link rel="stylesheet" href="css/style.css">
 
     <link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-icon-60x60.png">
@@ -318,8 +319,7 @@
                             <div class="carouse__client-url-wrap">
                                 <span class="carousel__proj-url">URL проекта:</span>
                                 <a href="http://algorweb.github.io/portfolio/millionsmedia/index.html"
-                                    class="carousel__url"
-                                    target="_blank">algorweb.github.io/portfolio/millionsmedia</a>
+                                    class="carousel__url" target="_blank">algorweb.github.io/portfolio/millionsmedia</a>
                             </div>
                             <div class="carouse__client-url-wrap">
                                 <span class="carousel__proj-url">Репозиторий GitHub:</span>
@@ -327,8 +327,8 @@
                                     target="_blank">github.com/algorweb/millions-media</a>
                             </div>
                             <div class="carousel__img-wrap">
-                                <img src="img/proj_millionsmedia.png" alt="Страница для заказчика с Kwork kir32232" class="carousel__img"
-                                    width="250" height="150">
+                                <img src="img/proj_millionsmedia.png" alt="Страница для заказчика с Kwork kir32232"
+                                    class="carousel__img" width="250" height="150">
                             </div>
                             <div class="carousel__details-tech">
                                 <div class="carousel__details">
@@ -515,53 +515,64 @@
         <section id="contacts" class="contacts">
             <div class="contacts__description gl-description-left">
                 <h2 class="contacts__title gl-title">Контакты</h2>
-                <p class="contacts__text gl-title-text">Я всегда открыт к сотрудничеству и предложениям. Любой продукт
-                    будет сделан качественнее и быстрее в команде, нежели одиночкой.</p>
             </div>
             <div class="contacts__wrap">
-                <form action="#" class="contacts__form">
-                    <h3 class="contacts__title-massage">Свяжитесь со мной!</h3>
-                    <div class="contacts__input-wrap"><label class="contacts__label"><span class="visually-hidden">Ваше
-                                имя*</span> <input class="contacts__name custom-placeholder default-customize"
-                                type="text" name="name" placeholder="Ваше имя*" required=""></label> <label
-                            class="contacts__label"><span class="visually-hidden">E-mail*</span> <input
-                                class="contacts__email custom-placeholder default-customize" type="email" name="email"
-                                placeholder="E-mail*" required=""></label></div><label
-                        class="contacts__label-massage"><span class="visually-hidden">Введите ваше сообщение*</span>
-                        <textarea class="contacts__massage custom-placeholder default-customize" name="massage"
-                            placeholder="Введите ваше сообщение*" rows="5" required=""></textarea></label> <button
-                        type="submit" class="contacts__button btn btn--color-dark">Отправить</button>
-                </form>
                 <div class="contacts__socials">
-                    <h3 class="contacts__socials-massage">Я в социальных сетях и мессенджерах</h3>
+                    <h3 class="contacts__socials-massage">Мои номера телефонов, социальные сети и мессенджеры.</h3>
                     <ul class="contacts__items">
-                        <li class="contacts__item"><a href="skype:aleksandr.goroshchenko" class="contacts__social"><span
-                                    class="visually-hidden">Ссылка на Skype </span><svg class="contacts__skype-icon"
-                                    width="20" height="20">
+                        <li class="contacts__item">
+                            <a href="tel:+79493708233" class="contacts__social">
+                                <svg class="" width="20" height="20">
+                                    <use xlink:href="img/sprite.svg#phone-icon"></use>
+                                </svg>
+                                +7(949)370-82-33
+                            </a>
+                        </li>
+                        <li class="contacts__item">
+                            <a href="tel:+70713708233" class="contacts__social">
+                                <svg class="" width="20" height="20">
+                                    <use xlink:href="img/sprite.svg#phone-icon"></use>
+                                </svg>
+                                +7(071)370-82-33
+                            </a>
+                        </li>
+                        <li class="contacts__item">
+                            <a href="skype:aleksandr.goroshchenko" class="contacts__social">
+                                <span class="visually-hidden">Ссылка на Skype</span>
+                                <svg class="contacts__skype-icon" width="20" height="20">
                                     <use xlink:href="img/sprite.svg#skype-icon"></use>
-                                </svg></a></li>
-                        <li class="contacts__item"><a href="mailto:a.goroshchenko@yandex.ru"
-                                class="contacts__social"><span class="visually-hidden">Ссылка на email </span><svg
-                                    class="contacts__email-icon" width="20" height="20">
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="contacts__item"><a href="mailto:a.goroshchenko@yandex.ru" class="contacts__social">
+                                <span class="visually-hidden">Ссылка на email</span>
+                                <svg class="contacts__email-icon" width="20" height="20">
                                     <use xlink:href="img/sprite.svg#email-icon"></use>
-                                </svg></a></li>
-                        <li class="contacts__item"><a href="http://vk.com/id345972020" class="contacts__social"><span
-                                    class="visually-hidden">Ссылка на социальную сеть ВКонтакте </span><svg
-                                    class="contacts__vk-icon" width="20" height="20">
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="contacts__item"><a href="http://vk.com/id345972020" class="contacts__social">
+                                <span class="visually-hidden">Ссылка на ВКонтакте</span>
+                                <svg class="contacts__vk-icon" width="20" height="20">
                                     <use xlink:href="img/sprite.svg#vk-icon"></use>
-                                </svg></a></li>
+                                </svg>
+                            </a>
+                        </li>
                         <li class="contacts__item"><a href="https://www.facebook.com/profile.php?id=100011174261326"
-                                class="contacts__social"><span class="visually-hidden">Ссылка на социальную сеть
-                                    Facebook </span><svg class="contacts__facebook-icon" width="20" height="20">
+                                class="contacts__social">
+                                <span class="visually-hidden">Ссылка на Telegram +79384677815</span>
+                                <svg class="contacts__facebook-icon" width="20" height="20">
                                     <use xlink:href="img/sprite.svg#facebook-icon"></use>
-                                </svg></a></li>
+                                </svg>
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </div>
         </section>
     </main>
     <footer class="page-footer">
-        <div class="page-footer__copyright">&copy; 2018</div>
+        <div class="page-footer__copyright">&copy; 2022</div>
     </footer>
     <script src="js/app.min.js"></script>
 </body>
