@@ -1,12 +1,7 @@
-<filesMatch ".(ico|pdf|flv|jpg|jpeg|png|gif|js|css|swf)$">
-    Header set Cache-Control "max-age=2592000, public"
-</filesMatch>
-
-## EXPIRES CACHING ##
 <IfModule mod_expires.c>
-    ExpiresActive On
+  ExpiresActive On
 
-     # Images
+ # Images
   ExpiresByType image/jpeg "access plus 1 year"
   ExpiresByType image/gif "access plus 1 year"
   ExpiresByType image/png "access plus 1 year"
@@ -34,8 +29,4 @@
   # Others
   ExpiresByType application/pdf "access plus 1 year"
   ExpiresByType image/vnd.microsoft.icon "access plus 1 year"
-
-    ExpiresDefault "access 1 month"
 </IfModule>
-## EXPIRES CACHING ##
-
